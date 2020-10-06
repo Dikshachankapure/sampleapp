@@ -1,0 +1,12 @@
+<mvc:View controllerName="demo.sampleapp.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Input id="txtEanscanned" placeholder="Scan barcode..." type="Text"></Input>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
